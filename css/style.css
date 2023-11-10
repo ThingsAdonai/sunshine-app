@@ -227,13 +227,18 @@ ul li {
     cursor: pointer; }
 
 ._active-bg {
-  background: #fff; }
+  background: #fff;
+  color: #000000;
+}
 
-._active-icon {
+ ._active-bg svg path {
+  fill: black; }
+    
+/* ._active-icon {
   fill: black; }
 
 ._active-txt {
-  color: #000; }
+  color: #000; } */
 
 @media (max-width: 64em) {
   .card__wrap {
